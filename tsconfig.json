@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "es2016",    
+    "module": "commonjs",  
+    "esModuleInterop": true,                        
+    "forceConsistentCasingInFileNames": true,     
+    "strict": true,
+    "skipLibCheck": true,
+    "outDir": "dist",
+    "noUncheckedIndexedAccess": true // index로 접근할 때 엄격한 검사를 함
+  },
+  "include": ["src/**/*"] // 모든 파일 찾아 컴파일
+}
